@@ -65,8 +65,6 @@ const Home = () => {
   const stats = [
     { number: "10K+", label: "Movies", icon: "🎬" },
     { number: "5K+", label: "Games", icon: "🎮" },
-    { number: "2K+", label: "Comics", icon: "📚" },
-    { number: "50K+", label: "Users", icon: "👥" },
   ];
 
   const features = [
@@ -125,8 +123,8 @@ const Home = () => {
               Your Ultimate Entertainment Network
             </p>
             <p className="text-xl text-gray-400 mb-12 max-w-2xl mx-auto leading-relaxed">
-              Discover, explore, and enjoy the world of movies, games, and
-              comics all in one place
+              Discover, explore, and enjoy the world of movies, games all in one
+              place
             </p>
 
             {/* CTA Buttons */}
@@ -305,7 +303,7 @@ const Home = () => {
             </h2>
             <p className="text-xl text-gray-400 mb-8 max-w-2xl mx-auto">
               Join thousands of users discovering their next favorite movie,
-              game, or comic
+              game
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link

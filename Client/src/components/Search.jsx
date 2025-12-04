@@ -90,7 +90,12 @@ const Search = ({ searchTerm, setSearchTerm, placeholder }) => {
       {!searchTerm && (
         <div className="mt-4 text-center">
           <p className="text-white text-sm mb-2">
-            Try: {placeholder === "Search Movies" ? "Inception, The Dark Knight, Interstellar" : "The Witcher 3, Cyberpunk 2077, God of War"}
+            Try:{" "}
+            {placeholder === "Search Movies"
+              ? "Inception, The Dark Knight, Interstellar"
+              : placeholder === "Search Games"
+              ? "The Witcher 3, Cyberpunk 2077, God of War"
+              : "X-Men, Avengers, Superman"}
           </p>
         </div>
       )}

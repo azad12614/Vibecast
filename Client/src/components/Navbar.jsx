@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { useEffect, useState } from "react";
-import logo from "/Vibecast2.png";
+// import logo from "/Vibecast2.png";
 
 function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -108,15 +108,6 @@ function Navbar() {
             </li>
             <li>
               <Link
-                to="/comic"
-                className="text-white hover:text-[#7b024d] font-cosmic text-lg px-4 py-2 rounded-lg hover:bg-white/30 transition-all duration-300"
-                onClick={closeMenu}
-              >
-                Comic
-              </Link>
-            </li>
-            <li>
-              <Link
                 to="/about"
                 className="text-white hover:text-[#7b024d] font-cosmic text-lg px-4 py-2 rounded-lg hover:bg-white/30 transition-all duration-300"
                 onClick={closeMenu}
@@ -200,15 +191,6 @@ function Navbar() {
                   onClick={closeMenu}
                 >
                   Games
-                </Link>
-              </li>
-              <li>
-                <Link
-                  to="/comic"
-                  className="text-white hover:text-[#7b024d] font-cosmic text-lg px-4 py-3 rounded-lg hover:bg-white/30 transition-all duration-300 block"
-                  onClick={closeMenu}
-                >
-                  Comic
                 </Link>
               </li>
               <li>

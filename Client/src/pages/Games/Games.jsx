@@ -75,7 +75,7 @@ const Games = () => {
         />
 
         {/* Gradient Overlay */}
-        <div className="absolute inset-0 bg-gradient-to-b from-transparent via-black/50 to-black"></div>
+        <div className="absolute inset-0 bg-gradient-to-b from-transparent via-black/40 to-black"></div>
 
         {/* Content */}
         <div className="absolute inset-0 flex flex-col items-center justify-center pt-20">
@@ -89,7 +89,7 @@ const Games = () => {
             <Search
               searchTerm={searchTerm}
               setSearchTerm={setSearchTerm}
-              placeholder="Search for games..."
+              placeholder="Search Games"
             />
           </div>
         </div>
@@ -98,7 +98,7 @@ const Games = () => {
         <div className="absolute -bottom-1 left-0 right-0">
           <svg
             viewBox="0 0 1440 120"
-            className="w-full h-24 text-black"
+            className="w-full h-24 text-black/90"
             preserveAspectRatio="none"
           >
             <path
