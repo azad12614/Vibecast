@@ -1,9 +1,9 @@
-import React, { useEffect, useState } from "react";
-import Search from "../../components/Search";
-import Spinner from "../../components/Spinner";
+import { useEffect, useState } from "react";
+import { useDebounce } from "react-use";
 import MovieCard from "../../components/MovieCard";
 import Navbar from "../../components/Navbar";
-import { useDebounce } from "react-use";
+import Search from "../../components/Search";
+import Spinner from "../../components/Spinner";
 import Hero from "../../images/Movies.png";
 
 const MOVIE_BASE_URL = "https://api.themoviedb.org/3";

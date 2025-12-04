@@ -1,9 +1,8 @@
-import React, { useState, useEffect } from "react";
+import { useState } from "react";
 
 const Search = ({ searchTerm, setSearchTerm, placeholder }) => {
   const [isFocused, setIsFocused] = useState(false);
 
-  // Clear search when component unmounts or add a clear button
   const handleClear = () => {
     setSearchTerm("");
   };

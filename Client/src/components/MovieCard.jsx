@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 const MovieCard = ({ movie }) => {
   const [imageLoaded, setImageLoaded] = useState(false);

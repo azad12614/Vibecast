@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 const GameCard = ({ game }) => {
   const [imageLoaded, setImageLoaded] = useState(false);

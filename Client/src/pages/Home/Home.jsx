@@ -1,8 +1,8 @@
-import React, { useState, useEffect } from "react";
+import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import Navbar from "../../components/Navbar";
-import MovieCard from "../../components/MovieCard";
 import GameCard from "../../components/GameCard";
+import MovieCard from "../../components/MovieCard";
+import Navbar from "../../components/Navbar";
 import Spinner from "../../components/Spinner";
 import Hero from "../../images/Hero.png";
 

@@ -1,10 +1,10 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
+import { useDebounce } from "react-use";
+import GameCard from "../../components/GameCard";
+import Navbar from "../../components/Navbar";
 import Search from "../../components/Search";
 import Spinner from "../../components/Spinner";
-import Navbar from "../../components/Navbar";
-import { useDebounce } from "react-use";
 import Hero from "../../images/Games.png";
-import GameCard from "../../components/GameCard";
 
 const Games = () => {
   const [searchTerm, setSearchTerm] = useState("");

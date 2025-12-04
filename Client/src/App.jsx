@@ -1,8 +1,8 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./App.css";
+import Games from "./pages/Games/Games";
 import Home from "./pages/Home/Home";
 import Movies from "./pages/Movies/Movies";
-import Games from "./pages/Games/Games";
 import NotFound from "./pages/NotFound";
 
 function App() {
