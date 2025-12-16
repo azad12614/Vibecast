@@ -4,6 +4,7 @@ import Games from "./pages/Games/Games";
 import Home from "./pages/Home/Home";
 import Movies from "./pages/Movies/Movies";
 import NotFound from "./pages/NotFound";
+import Colors from "./pages/Games/Colors";
 
 function App() {
   const router = createBrowserRouter([
@@ -18,6 +19,10 @@ function App() {
     {
       path: "/games",
       element: <Games />,
+    },
+    {
+      path: "/games/color-matching",
+      element: <Colors />,
     },
     {
       path: "/*",

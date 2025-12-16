@@ -5,6 +5,7 @@ import Navbar from "../../components/Navbar";
 import Search from "../../components/Search";
 import Spinner from "../../components/Spinner";
 import Hero from "../../images/Games.png";
+import { Link } from "react-router-dom";
 
 const Games = () => {
   const [searchTerm, setSearchTerm] = useState("");
@@ -92,6 +93,12 @@ const Games = () => {
               placeholder="Search Games"
             />
           </div>
+          <Link
+            to={"/games/color-matching"}
+            className="bg-primary-gradient text-white px-8 py-4 rounded-xl font-semibold text-lg hover:shadow-glow-primary transition-all duration-300 transform hover:scale-105 border border-primary-600 flex items-center"
+          >
+            Play Games Online
+          </Link>
         </div>
 
         {/* Curved Divider */}
